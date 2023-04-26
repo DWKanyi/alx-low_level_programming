@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * times_tables - Prints out a 9x9 timetable from 0
+ * times_table - Prints out a 9x9 timetable from 0
  * Return: void
  */
 void times_table(void)
