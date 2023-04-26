@@ -5,7 +5,7 @@
  * Return: 0 or absolute value of integer
  */
 int _abs(int c)
-
+{
 	/* IF condition statement*/
 	if (c < 0)
 	{
@@ -14,7 +14,8 @@ int _abs(int c)
 	val = (c * -1);
 	return (val);
 	}
-
+	else
+	{
 	return (c);
-
+	}
 }
