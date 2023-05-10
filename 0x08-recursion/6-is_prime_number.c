@@ -1,6 +1,19 @@
 #include "main.h"
 
 /**
+ * prime_number - Calculates if value
+ * is a prime number
+ *
+ * @n: Evaluated integer
+ * @i: Iterator
+ *
+ * Return: 1 if n is a prime number,
+ * otherwise 0
+ */
+
+int prime_number(int n, int i);
+
+/**
  * is_prime_number - Function that returns
  * the input integer if a prime number
  *

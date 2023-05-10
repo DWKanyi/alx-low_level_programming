@@ -1,7 +1,7 @@
 #include "main.h"
 
 int _palindrome(char *s, int i, int len);
-int strlen(char *s);
+int _strlen(char *s);
 
 /**
  * is_palindrome - Function to check if
@@ -18,23 +18,23 @@ int is_palindrome(char *s)
 	if (*s == 0)
 		return (1);
 
-	return (_palindrome(s, 0, strlen(s)));
+	return (_palindrome(s, 0, _strlen(s)));
 }
 
 /**
- * strlen - Gets string length
+ * _strlen - Gets string length
  *
  * @s: Evaluated string
  *
  * Return: Length of string
  */
 
-int strlen(char *s)
+int _strlen(char *s)
 {
 	if (*s == '\0')
 		return (0);
 
-	return (1 + strlen(s + 1));
+	return (1 + _strlen(s + 1));
 }
 
 /**
