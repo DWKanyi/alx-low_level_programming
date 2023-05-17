@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * argstoptr - concatenate all arguments of a program
+ * argstostr - concatenate all arguments of a program
  *
  * @ac: number of ptrings
  * @av: array of ptrings
@@ -10,7 +10,7 @@
  * Return: pointer to the new ptring, or NULL on failure
  */
 
-char *argstoptr(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	int i, j, k;
 	int len = 0;
