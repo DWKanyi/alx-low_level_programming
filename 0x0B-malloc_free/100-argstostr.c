@@ -10,7 +10,7 @@
  * Return: pointer to the new ptring, or NULL on failure
  */
 
-char *argstostr(int ac, char **av)
+char *argstoptr(int ac, char **av)
 {
 	int i, j, k;
 	int len = 0;
